@@ -1,0 +1,33 @@
+Source: libanyevent-http-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7)
+Build-Depends-Indep: perl, libanyevent-perl (>= 5.33),
+  libcommon-sense-perl (>= 3.3)
+Maintainer: Anthony Brummett <abrummet@genome.wustl.edu>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/AnyEvent-HTTP/
+
+Package: libanyevent-http-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libanyevent-perl (>= 5.33),
+  libcommon-sense-perl (>= 3.3)
+Description: unknown
+ AnyEvent::HTTP is an AnyEvent user, you need to make sure that you use and
+ run a supported event loop.
+ .
+ This module implements a simple, stateless and non-blocking HTTP client. It
+ supports GET, POST and other request methods, cookies and more, all on a very
+ low level. It can follow redirects, supports proxies, and automatically
+ limits the number of connections to the values specified in the RFC.
+ .
+ It should generally be a "good client" that is enough for most HTTP tasks.
+ Simple tasks should be simple, but complex tasks should still be possible as
+ the user retains control over request and response headers.
+ .
+ The caller is responsible for authentication management, cookies (if the
+ simplistic implementation in this module doesn't suffice), referer and other
+ high-level protocol details for which this module offers only limited
+ support.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
