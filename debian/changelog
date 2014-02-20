@@ -1,3 +1,9 @@
+libanyevent-http-perl (2.15-2) unstable; urgency=low
+
+  * Changed required version of libanyevent-perl to "5.330"
+
+ -- Anthony Brummett <abrummet@genome.wustl.edu>  Wed, 19 Feb 2014 11:13:12 -0600
+
 libanyevent-http-perl (2.15-1) unstable; urgency=low
 
   * Initial import of AnyEvent::HTTP 2.15 from CPAN

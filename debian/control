@@ -2,7 +2,7 @@ Source: libanyevent-http-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: perl, libanyevent-perl (>= 5.33),
+Build-Depends-Indep: perl, libanyevent-perl (>= 5.330),
   libcommon-sense-perl (>= 3.3)
 Maintainer: Anthony Brummett <abrummet@genome.wustl.edu>
 Standards-Version: 3.8.3
