@@ -1,3 +1,9 @@
+libanyevent-http-perl (2.15-3) unstable; urgency=low
+
+  * Changed required version of libanyevent-perl to "5.330" in Install deps
+
+ -- Mark Burnett <mburnett@genome.wustl.edu>  Wed, 24 DEC 2014 12:31:01 -0500
+
 libanyevent-http-perl (2.15-2) unstable; urgency=low
 
   * Changed required version of libanyevent-perl to "5.330"

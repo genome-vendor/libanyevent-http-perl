@@ -10,7 +10,7 @@ Homepage: http://search.cpan.org/dist/AnyEvent-HTTP/
 
 Package: libanyevent-http-perl
 Architecture: all
-Depends: ${perl:Depends}, ${misc:Depends}, libanyevent-perl (>= 5.33),
+Depends: ${perl:Depends}, ${misc:Depends}, libanyevent-perl (>= 5.330),
   libcommon-sense-perl (>= 3.3)
 Description: unknown
  AnyEvent::HTTP is an AnyEvent user, you need to make sure that you use and
